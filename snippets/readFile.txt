@@ -1,0 +1,5 @@
+var fileName = "FileWithContent.txt";
+var appDir = AppDomain.CurrentDomain.GetData("DataDirectory").ToString();
+var path = Path.Combine(appDir, fileName);
+
+ile.ReadAllText(path);
